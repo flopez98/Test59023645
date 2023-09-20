@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Master Branch Deployment') {
             when {
-                branch 'master'
+                branch 'main'
             }
             steps {
                 script {
